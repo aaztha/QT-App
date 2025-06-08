@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7b78386008f137924dd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lol",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lol::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lol-Debug-bc37951763550bd1a0e8.json",
+					"name" : "lol",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lol_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lol_autogen-Debug-19d27caff030fe949f7f.json",
+					"name" : "lol_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lol_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lol_autogen_timestamp_deps-Debug-3e80bfff94502c006b74.json",
+					"name" : "lol_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Qt/Project/lol/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+		"source" : "C:/Qt/Project/lol"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

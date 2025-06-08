@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/yay bee.webp</file>
+        <file>png/bee.svg</file>
+    </qresource>
+</RCC>

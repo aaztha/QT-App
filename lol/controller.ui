@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Controller</class>
+ <widget class="QMainWindow" name="Controller">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>857</width>
+    <height>596</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>801</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelnum1">
+       <property name="styleSheet">
+        <string notr="true">color:white;
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Number 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPlainTextEdit" name="num1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:rgb(43, 89, 99);
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_num2">
+       <property name="styleSheet">
+        <string notr="true">color:white;
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Number 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPlainTextEdit" name="num2">
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:rgb(43, 89, 99);
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_res">
+       <property name="styleSheet">
+        <string notr="true">color:white;
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Result</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QTextEdit" name="result">
+       <property name="styleSheet">
+        <string notr="true">background-color: white;
+color:rgb(43, 89, 99);
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Orientation::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>400</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="1">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="addButton">
+         <property name="font">
+          <font>
+           <family>Segoe UI</family>
+           <pointsize>14</pointsize>
+           <italic>false</italic>
+           <fontweight>Black</fontweight>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 900 14pt &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>+</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="subtractbutton">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 900 14pt &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="divbutton">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 900 14pt &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>/</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="multbutton">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+font: 900 14pt &quot;Segoe UI&quot;;</string>
+         </property>
+         <property name="text">
+          <string>*</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="lessgobutton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>530</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: white;
+color:rgb(43, 89, 99);
+font: 900 9pt &quot;Segoe UI&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
